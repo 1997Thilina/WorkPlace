@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/createJob"
+        android:title="post a job offer"/>
+
+    <item
+        android:id="@+id/createProfile"
+        android:title="Create a profile"/>
+
+    <item
+        android:id="@+id/jobs"
+        android:title="availble jobs"/>
+
+    <item
+        android:id="@+id/candidate"
+        android:title="job seekers"/>
+
+
+</menu>

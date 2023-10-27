@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProfile"
+    android:orientation="vertical"
+    android:layout_margin="35dp">
+
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Create a profile"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/ofTitle"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Your employment"
+        android:layout_marginTop="20dp"
+        android:id="@+id/employment"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Your Name"
+        android:layout_marginTop="20dp"
+        android:id="@+id/name"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerJob"
+        android:layout_width="match_parent"
+
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="17sp"
+        android:hint="Click here to add your CV as a pdf"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/addPdf"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Create"
+        android:layout_marginTop="20dp"
+        android:id="@+id/createButton"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WorkPlacE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="jobCategory">
+        <item>Select the job category</item>
+        <item>Technology</item>
+        <item>Education</item>
+        <item>Management</item>
+        <item>Art and Entertainment</item>
+    </string-array>
+</resources>
